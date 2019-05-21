@@ -1,0 +1,22 @@
+MAL INPUT => arel'; UPDATE accounts SET password='qwerty' WHERE username = 'arel';-- 
+WHY? I used the capability to run more than one query at once (as executescript() was used in webserver code) and set the password to 'qwerty'. Basically the first apostrophe in my input is for closing the matching quote in code then I ended the first statement with ';' and wrote my own statement. At the end, I have used comment sign for commenting out any remaining quotes and semi colons of code.
+
+
+
+
+
+
+
+
+MAL INPUT => hello', datetime('now', 'localtime'));INSERT INTO squigs VALUES('arel',(SELECT GROUP_CONCAT(username || ' ' || password) from accounts) ,datetime('now' ,'localtime')); -- 
+
+
+
+WHY? Structure semantics as discussed in previous mal string... Here I have made a string of all user and passwords and then i used the sql query for squigging and squigged that string
+
+
+
+
+MAL INPUT  => <a href = "do_squig?redirect=%2Fuserpage%3Fuser%3Ddilbert&squig=<script>alert(document.cookie)</script>">See the Hidden</a>
+
+WHY ? I have merged the CSRF and Reflected XSS by doing a squig on visitors page. The content of that malicious squig is actually a script. HOW I got the username of visitor? No need as System does not check it and just squig by the acoount of visitor.
