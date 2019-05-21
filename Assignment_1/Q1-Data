@@ -1,0 +1,72 @@
+Host is up, received timestamp-reply ttl 47 (0.094s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Scanned at 2019-02-23 21:11:14 PKT for 6701s
+Not shown: 61038 closed ports, 4490 filtered ports
+Reason: 61038 resets and 4490 no-responses
+PORT      STATE SERVICE    REASON         VERSION
+22/tcp    open  ssh        syn-ack ttl 40 OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 ac:00:a0:1a:82:ff:cc:55:99:dc:67:2b:34:97:6b:75 (DSA)
+| ssh-dss AAAAB3NzaC1kc3MAAACBAOe8o59vFWZGaBmGPVeJBObEfi1AR8yEUYC/Ufkku3sKhGF7wM2m2ujIeZDK5vqeC0S5EN2xYo6FshCP4FQRYeTxD17nNO4PhwW65qAjDRRU0uHFfSAh5wk+vt4yQztOE++sTd1G9OBLzA8HO99qDmCAxb3zw+GQDEgPjzgyzGZ3AAAAFQCBmE1vROP8IaPkUmhM5xLFta/xHwAAAIEA3EwRfaeOPLL7TKDgGX67Lbkf9UtdlpCdC4doMjGgsznYMwWH6a7Lj3vi4/KmeZZdix6FMdFqq+2vrfT1DRqx0RS0XYdGxnkgS+2g333WYCrUkDCn6RPUWR/1TgGMPHCj7LWCa1ZwJwLWS2KX288Pa2gLOWuhZm2VYKSQx6NEDOIAAACBANxIfprSdBdbo4Ezrh6/X6HSvrhjtZ7MouStWaE714ByO5bS2coM9CyaCwYyrE5qzYiyIfb+1BG3O5nVdDuN95sQ/0bAdBKlkqLFvFqFjVbETF0ri3v97w6MpUawfF75ouDrQ4xdaUOLLEWTso6VFJcM6Jg9bDl0FA0uLZUSDEHL
+|   2048 20:3d:2d:44:62:2a:b0:5a:9d:b5:b3:05:14:c2:a6:b2 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6afooTZ9mVUGFNEhkMoRR1Btzu64XXwElhCsHw/zVlIx/HXylNbb9+11dm2VgJQ21pxkWDs+L6+EbYyDnvRURTrMTgHL0xseB0EkNqexs9hYZSiqtMx4jtGNtHvsMxZnbxvVUk2dasWvtBkn8J5JagSbzWTQo4hjKMOI1SUlXtiKxAs2F8wiq2EdSuKw/KNk8GfIp1TA+8ccGeAtnsVptTJ4D/8MhAWsROkQzOowQvnBBz2/8ecEvoMScaf+kDfNQowK3gENtSSOqYw9JLOza6YJBPL/aYuQQ0nJ74Rr5vL44aNIlrGI9jJc2x0bV7BeNA5kVuXsmhyfWbbkB8yGd
+|   256 96:02:bb:5e:57:54:1c:4e:45:2f:56:4c:4a:24:b2:57 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMD46g67x6yWNjjQJnXhiz/TskHrqQ0uPcOspFrIYW382uOGzmWDZCFV8FbFwQyH90u+j0Qr1SGNAxBZMhOQ8pc=
+|   256 33:fa:91:0f:e0:e1:7b:1f:6d:05:a2:b0:f1:54:41:56 (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILzVjfIyIHfXyRd8jVBaVT8Yvk/UvHh5Afvho8sGciG7
+80/tcp    open  http       syn-ack ttl 47 Apache httpd 2.4.7 ((Ubuntu))
+|_http-favicon: Unknown favicon MD5: 156515DA3C0F7DC6B2493BD5CE43F795
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: Go ahead and ScanMe!
+2000/tcp  open  tcpwrapped syn-ack ttl 63
+5060/tcp  open  tcpwrapped syn-ack ttl 63
+8008/tcp  open  http       syn-ack ttl 63 Fortinet FortiGuard block page
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://scanme.nmap.org:8010/
+9929/tcp  open  nping-echo syn-ack ttl 40 Nping echo
+31337/tcp open  tcpwrapped syn-ack ttl 40
+OS fingerprint not ideal because: Host distance (17 network hops) is greater than five
+No OS matches for host
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=2/23%OT=22%CT=1%CU=42273%PV=N%DS=2%DC=T%G=N%TM=5C718ACF%P=x86_64-pc-linux-gnu)
+SEQ(SP=102%GCD=1%ISR=108%TI=Z%TS=21)
+SEQ(SP=104%GCD=1%ISR=10E%TI=Z%II=RI%TS=22)
+OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11NW7%O6=M5B4ST11)
+WIN(W1=5B4%W2=5B4%W3=5B4%W4=5B4%W5=5B4%W6=5B4)
+ECN(R=Y%DF=Y%T=43%W=5B4%O=M5B4NNSNW7%CC=Y%Q=)
+T1(R=Y%DF=Y%T=3F%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+T5(R=Y%DF=Y%T=3F%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=N)
+T7(R=N)
+U1(R=Y%DF=Y%T=3F%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=176B%RUD=G)
+IE(R=Y%DFI=N%T=3F%CD=S)
+
+Uptime guess: 0.000 days (since Sat Feb 23 23:02:31 2019)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; Device: security-misc; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 113/tcp)
+HOP RTT     ADDRESS
+1   2.72 ms _gateway (10.103.72.1)
+2   0.34 ms scanme.nmap.org (45.33.32.156)
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 23:02
+Completed NSE at 23:02, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 23:02
+Completed NSE at 23:02, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6702.07 seconds
+           Raw packets sent: 229835 (10.115MB) | Rcvd: 112057 (4.483MB)
+

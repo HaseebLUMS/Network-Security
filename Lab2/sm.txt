@@ -1,0 +1,23 @@
+0123456789
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+haseeb@haseeb:~/Desktop/Networks_Security/Lab2$ rm cos2.lst
+haseeb@haseeb:~/Desktop/Networks_Security/Lab2$ crunch 10 10 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -t cos432-@@@ -o cos2.lst
+Crunch will now generate the following amount of data: 2621608 bytes
+2 MB
+0 GB
+0 TB
+0 PB
+Crunch will now generate the following number of lines: 238328 
+
+crunch: 100% completed generating output
+haseeb@haseeb:~/Desktop/Networks_Security/Lab2$ crunch 10 10 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -t COS432-@@@ -o COS2.lst
+Crunch will now generate the following amount of data: 2621608 bytes
+2 MB
+0 GB
+0 TB
+0 PB
+Crunch will now generate the following number of lines: 238328 
+
+crunch: 100% completed generating output
+haseeb@haseeb:~/Desktop/Networks_Security/Lab2$ 
